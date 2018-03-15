@@ -1,5 +1,22 @@
-#box1{
-	height: 100px;
-	width: 100px;
-	border: 2px solid red;
+*{
+	background: black;
 }
+
+#box1{
+	width: 400px;
+    height: 200px;
+    border-radius: 5%;
+    background: white;
+    position :relative;
+    -webkit-animation: mymove 40s infinite; 
+    animation: mymove 50s infinite;
+    text-align: center;
+    font-size: 43px;
+}
+
+@keyframes mymove {
+	from {top: 0px;}
+    to {top: 1000px;}
+}
+
+
